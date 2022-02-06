@@ -23,7 +23,7 @@ keypoints:
 
 
 ## Who you are?
-Start with your background, role at your institution, and what role (or desired role) you have in the Library Carpentry/Carpentries community. 
+あなたの経歴、所属機関での役割、Library Carpentry/Carpentryコミュニティでのあなたの役割（または希望する役割）をお聞かせください。 
 
 ## Our aim is to help libraries become data and software savvy.
 
