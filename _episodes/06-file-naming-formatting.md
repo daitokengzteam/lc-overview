@@ -1,5 +1,5 @@
 ---
-title: File naming & formatting
+title: File naming & formatting（ファイル名とフォーマット）
 teaching: 30
 exercises: 10
 questions:
