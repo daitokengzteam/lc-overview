@@ -19,7 +19,7 @@ keypoints:
 - Automate repetitive, error prone tasks.
 ---
 
-# Introduction to Library Carpentry – Teaching Data Science Skills
+# Library Carpentryの紹介 – データサイエンスのスキルを教える
 
 ## Who you are?
 Start with your background, role at your institution, and what role (or desired role) you have in the Library Carpentry/Carpentries community. 
