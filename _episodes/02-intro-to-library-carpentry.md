@@ -27,14 +27,14 @@ Start with your background, role at your institution, and what role (or desired 
 
 ## Our aim is to help libraries become data and software savvy.
 
-## Outline
-- Campus trends in data science
-- Challenges for libraries
-- Opportunities for libraries
-- The Carpentries - How it works
-- Library Carpentry - What libraries are doing
-- How to get involved
-- Training at your institution 
+## アウトライン
+- データサイエンスのキャンパス？トレンド
+- 図書館のチャレンジ
+- 図書館の可能性
+- The Carpentries - その仕組
+- Library Carpentry - 図書館が行っていること
+- 参加方法
+- 施設での研修
 
 ## Campus trends
 With the emergence of our ability to generate increasing amounts of data, research and work in almost every domain has a data and computational component, including the whole new field of data science.
