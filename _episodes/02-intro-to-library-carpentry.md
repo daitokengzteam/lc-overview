@@ -19,7 +19,7 @@ keypoints:
 - Automate repetitive, error prone tasks.
 ---
 
-# Library Carpentryの紹介 – データサイエンスのスキルを教える matsuno
+# Library Carpentryの紹介 – データサイエンスのスキルを教える kagawa
 
 
 ## Who you are?
