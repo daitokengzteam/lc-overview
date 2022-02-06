@@ -31,7 +31,7 @@ Start with your background, role at your institution, and what role (or desired 
 - データサイエンスのキャンパス？トレンド
 - 図書館のチャレンジ
 - 図書館の可能性
-- The Carpentries - その仕組
+- The Carpentries - その仕組み
 - Library Carpentry - 図書館が行っていること
 - 参加方法
 - 施設での研修
