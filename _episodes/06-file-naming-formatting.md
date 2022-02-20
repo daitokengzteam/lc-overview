@@ -3,7 +3,7 @@ title: File naming & formatting（ファイル名とフォーマット）
 teaching: 30
 exercises: 10
 questions:
-- What best practices and generic skills can be used to successfully use and create library related programs?
+- 図書館に関するソフトウェアを使う What best practices and generic skills can be used to successfully use and create library related programs?
 objectives:
 - Identify best practices in naming and structuring files.
 - Identify best practices in using software and data.
