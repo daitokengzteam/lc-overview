@@ -25,29 +25,41 @@ We are all guilty of naming our files in such a way that sometimes we have a har
 'Protip: Never look in someone else's documents folder.' by Randall Munroe available at [https://xkcd.com/1459/](https://xkcd.com/1459/) under a Creative Commons Attribution-NonCommercial 2.5 License.
 
 There are a number of other [bad file naming examples catalogued by Twenty Pixels](http://20px.com/blog/2015/07/16/catalogue-bad-file-naming/) such as the _Overly Underscored_ or _Signs of Frustration_. Do any of these examples look familiar?
+悪い名前の付け方がまとめられています。無題テキスト、、、なんとか削除、なんとか無効、なんとか最終版、、、アンダーバー使いすぎ、いらだちをしめす。
 
 The [File Organisation: Naming](https://datacarpentry.org/rr-organization1/01-file-naming/index.html) episode of Data Carpentry's Reproducibility of Research lesson contains principles and examples that we can apply to finding and working with files that will save us time later. For example, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), the preferred format for dates: YYYY-MM-DD. It introduces best practices such as using special case styles, 'Kebab-case' and 'Snake_case'. Dryad has additional [guidance on creating reusable data packages](https://datadryad.org/stash/best_practices) including folder and file structure.
+姉妹版に研究の再現性、ファイル名の名前付けというセッションがある。悪い例とかいい例とか。データカンペントリーの方のレッスン。あとからファイルを見つけやすくなって、時間の節約できるような例
+ISO 8601のような日付の書き方。YYYY-MM-DD(年4桁-月2桁-日2桁)。特殊なケーススタイル、ケバブケース（ハイフン）、スネークケース（アンダーバー）、ドライアドに説明がある。
 
 ## Naming files sensible things is good for you and for your computers
+注意して名前をつけるのはあなたにもコンピュータにもいいこと。
 
 Working with data is made easier by structuring your files in a consistent and predictable manner. Without structured information, our lives would be much poorer. As library and archive people, we know this. But let's linger on this a little longer because for working with data it is especially important.
+データを使って仕事をするときには、あなたのファイルを一貫性のある予期できる方法でこのデータを構造化すると仕事をするのが簡単になります。構造化された情報がなかったら私達の生活は貧しく、不便になります。私は図書館やアーカイブで働いているので、知っているはずです。
 
 Examining URLs is a good way of thinking about why structuring data in a consistent and predictable manner might be useful in your work. Good URLs represent with clarity the content of the page they identify, either by containing semantic elements or by using a single data element found across a set or majority of pages.
+しかしもう少し細かくみていきましょう。データで仕事をするのはすごく重要なことだからです。URLを調べるというのはデータが一貫性があって予期できるかのよい方法です。よいURLはウェブページに載っている情報の中身をはっきり示すものです。それは意味的な要素を示している単一の情報を複数のページをまたいだ一つの要素を含んでいるからです。
 
 A typical example of the former are the URLs used by news websites or blogging services. WordPress URLs follow the format:
+よくある意味的な情報を含むURLの例。ニュースとかブログ
 
 -   `ROOT/YYYY/MM/DD/words-of-title-separated-by-hyphens`
 -   <https://cradledincaricature.com/2015/07/24/code-control-and-making-the-argument-in-the-humanities/>
+ルート/年/月/日/タイトルをハイフンで区切る
 
 A similar style is used by news agencies such as a *The Guardian* newspaper:
+同様な例、新聞社
 
 -   `ROOT/SUB_ROOT/YYYY/MMM/DD/words-describing-content-separated-by-hyphens`
 -   <https://www.theguardian.com/uk-news/2014/feb/20/rebekah-brooks-rupert-murdoch-phone-hacking-trial>
+ルート/サブルート/年/月/日/コンテンツの説明、ハイフン
 
 In data repositories, URLs structured by a single data element are often used. The National Library of Australia's TROVE uses this format:
+データリポジトリでは単一の要素で使われる
 
 -   `ROOT/record-type/REF`
 -   <https://trove.nla.gov.au/work/6315568>
+-   ルート/レコードタイプ/レファレンス番号
 
 The Old Bailey Online uses the format:
 
@@ -55,16 +67,23 @@ The Old Bailey Online uses the format:
 -   <https://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
 
 What we learn from these examples is that a combination of semantic description and data elements make for consistent and predictable data structures that are readable both by humans and machines. Transferring this kind of pattern to your own files makes it easier to browse, to search, and to query using both the standard tools provided by operating systems and by the more advanced tools Library Carpentry will cover.
+これらからわかるのは意味的な説明とデータの要素の組み合わせというのは人間と機械の両方に読みやすくします。こういった例を自分にあてはめるとファイルをブラウズしやすくなったり検索しやすくなったり、これから説明、OSの機能、スタンダードツールで閲覧や検索がしやすくなります。
 
 In practice, the structure of a good archive might look something like this:
+実際にはよいアーカイブという方法
 
 - A base or root directory, perhaps called 'work'.
+- ベースはルートディレクトリ、おそらくwork
 - A series of sub-directories such as 'events', 'data', ' projects', etc.
+- サブディレクトリ
 - Within these directories are series of directories for each event, dataset or project. Introducing a naming convention here that includes a date element keeps the information organised without the need for subdirectories by, say, year or month.
+- データセット、プロジェクト、年月日などをつけたファイル名を作って、そこから先は年とか月とかでサブディレクトリを作らない、こうするとあとから自分が何をしていたか思い出しやすくなります。
+- これを実世界上の保存ということになります。
 
 All this should help you remember something you were working on when you come back to it later (call it real world preservation).
 
 The crucial bit for our purposes, however, is the file naming convention you choose. The name of a file is important to ensuring it and its contents are easy to identify. `Data.xslx` doesn't fulfill this purpose. A title that describes the data does. And adding dating convention to the file name, associating derived data with base data through file names, and using directory structures to aid comprehension strengthens those connections.
+重要な点はあなたが決めたファイルの規則です。Data.xslx(xlsx?)はこの目的を満たしません。ファイルのタイトルは目的に合います。日付の規則をファイル名に追加する。まとめやすくサブディレクトリを作って、ファイル間のつながりが強くなります。
 
 ## Plain text formats are your friend
 
