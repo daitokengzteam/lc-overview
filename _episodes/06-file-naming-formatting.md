@@ -86,10 +86,16 @@ The crucial bit for our purposes, however, is the file naming convention you cho
 重要な点はあなたが決めたファイルの規則です。Data.xslx(xlsx?)はこの目的を満たしません。ファイルのタイトルは目的に合います。日付の規則をファイル名に追加する。まとめやすくサブディレクトリを作って、ファイル間のつながりが強くなります。
 
 ## Plain text formats are your friend
+## プレーンテキストはあなたの友達です。
 
 Why? Because computers can process them!
+なぜならコンピュータで処理できるからです。
 
 If you want computers to be able to process your stuff, try to get in the habit where possible of using platform-agnostic formats such as `.txt` for notes and `.csv` (comma-separated values) or `.tsv` (tab-separated values) for tabular data. TSV and CSV files are both spreadsheet formats. These plain text formats are preferable to the proprietary formats (e.g., Microsoft Word)  because they can be opened by many software packages and have a strong chance of remaining viewable and editable in the future. Most standard office suites include the option to save files in `.txt`, `.csv`, and `.tsv` formats, meaning you can continue to work with familiar software and save your files in the more perennial formats. Compared to `.doc` or `.xls`, these formats have the additional benefit of containing only machine-readable elements. 
+もしコンピュータに処理させようと思ったら、プラットフォームに依存しないフォーマットを利用しましょう。.txt .csv　カンマ区切りテキスト .tsv　タブ区切りテキスト
+どちらもスプレッドシートのフォーマット、これらのテキストフォーマット、独占的なフォーマット（例えばWordみたいなフォーマット）より好まれます。
+いろんなソフトで開ける。参照や編集もできるからです。たいていのOfficeのフォーマットは保存するオプションがあって、あなたのよくなれたソフトウェアでそれらを編集することができますし、
+他のフォーマットでできることもできます。.doc.xlsと比べるとマシンリーダブルという特徴があります。
 
 When working with files for automation or computational purposes, it is more important to focus on meaningful transmission of data as opposed to fancy formatting. Whilst using bold, italics, and colouring to signify headings or to make a visual connection between data elements is common practice, these display-orientated annotations are not (easily) machine-readable and hence can neither be queried and searched nor are appropriate for large quantities of information. One rule of thumb is if you can't find it by <kbd>Ctrl</kbd>+<kbd>F</kbd>/<kbd>Command</kbd>+<kbd>F</kbd> it isn't machine readable. Preferable are simple notation schemes such as using a double-asterisk or three hashes to represent a data feature: for example, we could use three question marks to indicate something that needs follow up, chosen because `???` can easily be found with a <kbd>Ctrl</kbd>+<kbd>F</kbd>/<kbd>Command</kbd>+<kbd>F</kbd> search.
 
