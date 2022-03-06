@@ -2,14 +2,16 @@
 title: File naming & formatting（ファイル名とフォーマット）
 teaching: 30
 exercises: 10
-questions:
-- 図書館に関するソフトウェアを使う What best practices and generic skills can be used to successfully use and create library related programs?
-objectives:
+質問　questions:
+- 図書館に関するプログラムを上手く利用および作成するための最適なやり方と一般的なスキルは何ですか？
+- What best practices and generic skills can be used to successfully use and create library related programs?
+目的　objectives:
+- ファイル命名と構造化のベストプラクティス
 - Identify best practices in naming and structuring files.
-- ファイルを識別するベストプラクティス
+- 使用するソフトウェアとデータを識別するベストプラクティス
 - Identify best practices in using software and data.
-- 使用するソフトウェアとデーアを識別するベストプラクティス
-keypoints:
+
+キーポイント　keypoints:
 - Data structures should be consistent and predictable.
 - Consider using semantic elements or data identifiers to data directories.
 - Fit and adapt your data structure to your work.
