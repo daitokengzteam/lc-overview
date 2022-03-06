@@ -98,6 +98,8 @@ If you want computers to be able to process your stuff, try to get in the habit 
 他のフォーマットでできることもできます。.doc.xlsと比べるとマシンリーダブルという特徴があります。
 
 When working with files for automation or computational purposes, it is more important to focus on meaningful transmission of data as opposed to fancy formatting. Whilst using bold, italics, and colouring to signify headings or to make a visual connection between data elements is common practice, these display-orientated annotations are not (easily) machine-readable and hence can neither be queried and searched nor are appropriate for large quantities of information. One rule of thumb is if you can't find it by <kbd>Ctrl</kbd>+<kbd>F</kbd>/<kbd>Command</kbd>+<kbd>F</kbd> it isn't machine readable. Preferable are simple notation schemes such as using a double-asterisk or three hashes to represent a data feature: for example, we could use three question marks to indicate something that needs follow up, chosen because `???` can easily be found with a <kbd>Ctrl</kbd>+<kbd>F</kbd>/<kbd>Command</kbd>+<kbd>F</kbd> search.
+自動化とかコンピュータで処理しようとすると、この見た目をきれいにするのではなく、意味のある形にするということがとても重要です。例えば、太字にするとかイタリックにするとか色をつける強調するデータの間に見た目のコネクション関連するとかよくやられていますが、視覚上での注意書きは簡単には機械は読めない。読めないし、こういう強調とか関係とか機械で読めないから検索できない。検索できないので大量のデータを扱うのに向いていません。簡単にいえな、コントロールFでみえないものはマシンリーダブルではありません。好まれるのは簡単な注書きを書く仕組み。例えばアスタリスク2つとかシャープ3つとか
+データを表現するのに好まれます。例えば私達はクエスチョンマーク3つを注意を促すことができます。簡単に検索できます。
 
 ## Use machine readable plain text notation for formatting
 
