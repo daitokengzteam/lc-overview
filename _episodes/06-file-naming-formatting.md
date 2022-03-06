@@ -102,8 +102,10 @@ When working with files for automation or computational purposes, it is more imp
 データを表現するのに好まれます。例えば私達はクエスチョンマーク3つを注意を促すことができます。簡単に検索できます。
 
 ## Use machine readable plain text notation for formatting
+機械が処理できる見た目を整理するためのテキストノーテーション
 
 There are some simple notation schemes that are also plain text and machine readable, but can be used to render simple formatting. One such scheme is called Markdown, a lightweight markup language. A markup language is a metadata language that uses notation to distinguish between the content and the formatting of the content. Markdown files, which use the file extension `.md`, are machine and human readable. Markdown applications can be disparate, from simple to-do lists, to extensive manual pages. For example, GitHub renders text via Markdown. For instance, you can inspect the [underlying Markdown for this episode, File naming & formatting](https://github.com/LibraryCarpentry/lc-overview/blob/gh-pages/_episodes/06-file-naming-formatting.md).
+簡単なノーテーションの仕組み。表記法はいくつかあります。見た目を整えるためにも使います。マークダウン、軽量マークアップ言語の一つ。メタデータランゲージ。コンテンツ、中身とその中身のフォーマッティング見た目を区別するための表記法。マークダウン。mdは機械可読でもあるし、人間可読でもある。マークダウンを使ったアプリケーション。To Doリスト。マニュアル。いろんなものがあります。例えば、Githubはテキストのフォーマットができます。実際これがマークダウン、Github上ではこういう風になる。
 
 > ## How can I format a Markdown file?
 >
@@ -116,6 +118,10 @@ There are some simple notation schemes that are also plain text and machine read
 > {: .solution}
 {: .challenge}
 
+マークダウンってどうやってつくるの？
+書き方ガイドっていくつかあります。もうちょっといろんな例があります。
+csvをマークダウンに変換する
+
 The [Markdown Guide](https://www.markdownguide.org/) is a helpful resource for learning Markdown but you can also try:
 
 - [CommonMark's guide](https://commonmark.org/help/)
@@ -127,11 +133,24 @@ For more advanced Markdown examples, the internet can be a helpful resource. For
 The following resource provides further background on Markdown for people in library- and information-related roles:   
 Ovadia, Steven. "[Markdown For Librarians And Academics.](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1006&context=lg_pubs)" Behavioral & Social Sciences Librarian 33.2 (2014): 120-124.
 
+ライブラリアンとアカデミックスのためのマークダウン
+
 ## Applications for writing, reading and outputting plain text files
 
+どんなソフトを使って作業するのか
+
 We've already discussed why plain text formats are needed for working with data, and it's also important to understand that you need different tools to work with these formats. Word processors like Microsoft Word, LibreOffice Writer, and Google Docs will explicitly _not_ work for this purpose -- those tools are meant to optimize how documents appear to humans, not to computers. They add many hidden characters and generally are unsuitable for working with plain text files. The category of tool you'll want to use for data is called a _text editor_. Text editors save only the text that you type -- there is no hidden formatting or metadata. What you see in a text editor is what a computer will see when it tries to process that data.       
+
+ワードプロセッサーアプリケーション、Microsoft Word、Libre Office Google Docs、人間向けに最適化されていて、コンピュータ向けには不向きです。
+Wordとかは隠れた文字を追加してしまいます。プレーンテキストでやるには向いていません。テキストエディタといわれるものです。あなたの打った文字だけを保存します。隠れたメタデータ、隠れた文字列は保存しません。
 
 Two free, cross-platform editors that work well for handling plain text files are [Visual Studio Code](https://code.visualstudio.com/) and [Atom](https://atom.io/). For Windows users, [Notepad++](http://notepad-plus-plus.org/) is recommended. Mac or Unix users may find [Komodo Edit](https://www.activestate.com/products/komodo-ide/downloads/edit/), [Kate](https://kate-editor.org/) or [Gedit](https://wiki.gnome.org/Apps/Gedit) useful.
 Combined with [pandoc](http://pandoc.org/), a Markdown file can be exported to PDF, HTML, a formatted Word document, LaTeX or other formats, so it is a great way to create machine-readable, easily searchable documents that can be repurposed in many ways. This [Programming Historian](https://programminghistorian.org/) [tutorial](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) spells out what to do.
 
+ここで2つクロスフォーマットで使えて、プレーンテキストを使える。Visual Stuidio Code、Atom。Windows Notepad++もおすすめです。MacやUNIX、komodo、Kate、（日本語圏ではまた別）
+LateXとか色々な
+機械が読めて検索できる、いろんな方法に再利用できる。Programming　Historian、マークダウンとPandocを使ってPDFを作る。
+
 In [Library Carpentry: The UNIX Shell](https://librarycarpentry.org/lc-shell/) lesson, we all see how the command line can be a powerful tool for working with text files.
+
+Unix Shellでコマンドラインを使ってテキストファイルの処理をする方法を学んでいきます。
