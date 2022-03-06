@@ -1,33 +1,39 @@
 ---
 title: File naming & formatting（ファイル名とフォーマット）
-teaching: 30
-exercises: 10
-質問　questions:
-- 図書館に関するプログラムを上手く利用および作成するための最適なやり方と一般的なスキルは何ですか？
+teaching（講義）: 30
+exercises（演習）: 10
+questions（課題）:
 - What best practices and generic skills can be used to successfully use and create library related programs?
-目的　objectives:
-- ファイル命名と構造化のベストプラクティス
+- 図書館に関するプログラムを上手く利用および作成するための最適なやり方と一般的なスキルは何ですか？
+objectives（目的）:
 - Identify best practices in naming and structuring files.
-- 使用するソフトウェアとデータを識別するベストプラクティス
+- ファイル命名と構造化のベストプラクティスを確認する。
 - Identify best practices in using software and data.
+- 使用するソフトウェアとデータにおけるベストプラクティスを確認する。
 
-キーポイント　keypoints:
+keypoints（キーポイント）:
 - Data structures should be consistent and predictable.
+- データ構造は一貫性と予測可能であるべき。
 - Consider using semantic elements or data identifiers to data directories.
+- データディレクトリには意味的要素やデータ識別子の使用を検討する。
 - Fit and adapt your data structure to your work.
+- データ構造を作業に適合させること。
 - Apply naming conventions to directories and file names to identify them, to create associations between data elements, and to assist with the long term readability and comprehension of your data structures.
+- ディレクトリとファイル名に命名規則を適用して、それらを識別し、データ要素間を関連付け、データ構造の長期的な可読性と理解を支援する。
 ---
 
-## Names matter
+## Names matter（名前は大事）
 
 We are all guilty of naming our files in such a way that sometimes we have a hard time finding them. For example, the following XKCD comic may be all too familiar.
+私たちはみな、このようなファイル名を付けてしまいがちで、探すのに時間がかかる。たとえば次のXKCDコミックはあまりに有名かもしれない。
 
 ![Protip: Never look in someone else's documents folder](../files/someone_elses_documents_folder.png)
 
 'Protip: Never look in someone else's documents folder.' by Randall Munroe available at [https://xkcd.com/1459/](https://xkcd.com/1459/) under a Creative Commons Attribution-NonCommercial 2.5 License.
+「アドバイス：他人のフォルダをのぞいてはいけません」
 
 There are a number of other [bad file naming examples catalogued by Twenty Pixels](http://20px.com/blog/2015/07/16/catalogue-bad-file-naming/) such as the _Overly Underscored_ or _Signs of Frustration_. Do any of these examples look familiar?
-悪い名前の付け方がまとめられています。無題テキスト、、、なんとか削除、なんとか無効、なんとか最終版、、、アンダーバー使いすぎ、いらだちをしめす。
+悪い名前を付け方がまとめられています。無題テキスト、、、なんとか削除、なんとか無効、なんとか最終版、、、アンダーバー使いすぎ、いらだちをしめすなど。これらの例に見覚えがありますか？
 
 The [File Organisation: Naming](https://datacarpentry.org/rr-organization1/01-file-naming/index.html) episode of Data Carpentry's Reproducibility of Research lesson contains principles and examples that we can apply to finding and working with files that will save us time later. For example, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), the preferred format for dates: YYYY-MM-DD. It introduces best practices such as using special case styles, 'Kebab-case' and 'Snake_case'. Dryad has additional [guidance on creating reusable data packages](https://datadryad.org/stash/best_practices) including folder and file structure.
 姉妹版に研究の再現性、ファイル名の名前付けというセッションがある。悪い例とかいい例とか。データカンペントリーの方のレッスン。あとからファイルを見つけやすくなって、時間の節約できるような例
